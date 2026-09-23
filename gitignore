@@ -1,0 +1,36 @@
+# Java / Spring Boot
+target/
+*.class
+*.jar
+*.war
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Android
+*.apk
+*.ap_
+*.dex
+local.properties
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Python / ML
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.ipynb_checkpoints
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Secrets / env
+.env
+*.env.local
+firebase-service-account.json
